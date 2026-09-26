@@ -41,6 +41,11 @@ export default function Home() {
           ))}
         </ul>
       </section>
+      <footer className="mt-12 border-t border-border pt-6">
+        <Link href="/support/" className={cn(buttonVariants({ variant: "link" }), "min-h-8 h-auto p-0 text-sm")}>
+          Support
+        </Link>
+      </footer>
     </main>
   );
 }
