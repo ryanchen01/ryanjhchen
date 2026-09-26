@@ -4,14 +4,14 @@ import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = {
-  title: "Ten & Twins privacy policy",
-  description: "How Ten & Twins stores game data on your device. No accounts, analytics, advertising, or tracking.",
+  title: "Ten & Twin privacy policy",
+  description: "How Ten & Twin stores game data on your device. No accounts, analytics, advertising, or tracking.",
 };
 
 const sections = [
   {
     title: "Your data stays on your device",
-    body: "Ten & Twins works offline. The app does not collect or transmit personal information, use analytics or advertising services, or track you across apps and websites. No account is required.",
+    body: "Ten & Twin works offline. The app does not collect or transmit personal information, use analytics or advertising services, or track you across apps and websites. No account is required.",
   },
   {
     title: "Saved game data",
@@ -35,7 +35,7 @@ export default function PrivacyPolicy() {
       </Link>
       <article>
         <header className="mb-12 border-b border-border pb-8">
-          <h1 className="text-3xl font-semibold leading-tight tracking-[-0.035em] sm:text-4xl">Ten &amp; Twins privacy policy</h1>
+          <h1 className="text-3xl font-semibold leading-tight tracking-[-0.035em] sm:text-4xl">Ten &amp; Twin privacy policy</h1>
           <p className="mt-4 text-sm text-muted-foreground">
             Effective <time dateTime="2026-09-25">September 25, 2026</time>
           </p>
