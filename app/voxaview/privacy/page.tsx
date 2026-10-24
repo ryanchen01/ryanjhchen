@@ -30,7 +30,7 @@ const sections = [
     body: (
       <>
         For privacy questions, contact the developer through{" "}
-        <a href="https://github.com/ryanchen01/VoxaView/issues"
+        <a href="https://ryanjhchen.com/support/"
           className="underline underline-offset-4 hover:text-foreground">
           VoxaView&apos;s support page
         </a>.
